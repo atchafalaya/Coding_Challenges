@@ -1,6 +1,9 @@
 // Write your code below this line.
-let ArrayLength = 10;
-let array = [];
-for(let i = 0; i < ArrayLength; i++){
-    array.push(Math.random);
+function LuckyNumbers(input){
+    let array = [];
+    for(let i = 0; i < input; i++){
+        array.push(Math.floor(Math.random()*10)+1);
+         
+}return array;
 }
+console.log(LuckyNumbers(6))
